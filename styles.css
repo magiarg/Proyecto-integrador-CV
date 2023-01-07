@@ -48,8 +48,8 @@ body{
     margin-top: 1em;
 }
 
-/* container_main */
-.container_main{
+/* container */
+.container{
     max-width: 100vw;
     max-height: auto;
     padding: 10px;
@@ -57,6 +57,10 @@ body{
     box-shadow: inset 0 0 10px #0f0000;
     border: solid 1px cornflowerblue;
     border-radius: 0.5em;
+}
+
+/* container_main */
+.container_main{   
     display: grid;
     grid-template-columns: 40vw  auto;
     grid-template-rows: auto;
@@ -67,6 +71,7 @@ body{
 /* tabla datos personales */
 .datos_personales{
     margin-top: 5vh;
+    align-self: center;
 }
 .datos_personales td, th{
     padding: 2vh;
@@ -79,6 +84,9 @@ body{
 .introduccion{
     margin-top: 5vh;
     margin-right: 1.5vw;
+}
+.datos_personales a{
+    pointer-events: visible;
 }
 
 
@@ -117,6 +125,7 @@ body{
 }
 .favicons table tr td span{
     margin-left: 8vw;
+    pointer-events: visible;
 }
 
 /*experiencia */
@@ -131,9 +140,26 @@ body{
     margin-left: 1.5vw;
 }
 
-/* habilidades */
-.habilidades{
+/* conocimientos */
+.conocimientos{
     margin-top: 5vh;
     margin-right: 1.5vw;
     margin-bottom: 5vh;
+}
+
+/* habilidades js */
+.habilidades_js{  
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.habilidades_js h2{
+    align-self: center;
+}
+.habilidades_123{
+    margin: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+
 }
