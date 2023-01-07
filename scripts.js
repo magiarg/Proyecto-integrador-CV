@@ -15,4 +15,6 @@ function backgroundImage(){
 let mybutton = document.getElementById("button_top");
 function goTopFunction() {
     document.documentElement.scrollTo({top: 0});
-  }
+}
+
+
