@@ -1,4 +1,5 @@
 
+// funcion cambio de imagen de fondo/
 let cont = 0
 function backgroundImage(){
     if (cont == 0){
@@ -10,3 +11,8 @@ function backgroundImage(){
     }    
 }
 
+// funcion ir al inicio/
+let mybutton = document.getElementById("button_top");
+function goTopFunction() {
+    document.documentElement.scrollTo({top: 0, behavior: 'smooth'});
+  }
