@@ -14,5 +14,5 @@ function backgroundImage(){
 // funcion ir al inicio/
 let mybutton = document.getElementById("button_top");
 function goTopFunction() {
-    document.documentElement.scrollTo({top: 0, behavior: 'smooth'});
+    document.documentElement.scrollTo({top: 0});
   }

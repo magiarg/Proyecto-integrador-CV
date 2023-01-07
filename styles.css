@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior:smooth
+}
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: auto;
@@ -43,13 +47,21 @@ body{
 }
 .container_header h2{
     font-weight: lighter;
-    color: blue;
+    color: rgb(77, 77, 77);
     align-self: center;
-    margin-top: 1em;
+}
+.anclas{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.anclas a{
+    text-decoration: none;
 }
 
-/* container */
-.container{
+/* container borde*/
+.container_borde{
     max-width: 100vw;
     max-height: auto;
     padding: 10px;
@@ -158,8 +170,6 @@ body{
 }
 .ejemplos_js{
     margin: 5vh;
-
     display: flex;
     justify-content: space-around;
-
 }
