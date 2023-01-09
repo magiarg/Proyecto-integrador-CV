@@ -173,7 +173,12 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.ejemplos_js p{
+    text-align: center;
+}
+
 .ejemplos_js button{
+    margin: 0px 5px 0px 5px;
     padding: 5px;
     background-color:#0a0a23;
     color: #fff;
@@ -218,12 +223,5 @@ body{
     }
     .datos_personales table tr td span{
         margin-left: auto;
-    }
-
-    .introduccion{
-        width: 75vw;
-        justify-self: center;
-        
-    }
-    
+    } 
 }
