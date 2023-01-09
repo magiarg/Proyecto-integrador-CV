@@ -33,7 +33,7 @@ body{
 .container_header img{
     border: solid 1px cornflowerblue;
     border-radius: 150px;
-    width: 250px;
+    width: 20vw;
     height: auto;
     
 }
@@ -89,7 +89,7 @@ body{
     padding: 2vh;
 }
 .datos_personales table tr td span{
-    margin-left: 5vw;
+    margin-left: 1vw;
 }
 
 /* introduccion */
@@ -185,4 +185,45 @@ body{
 .ejemplos_js button:hover{
     transform: scale(105%);
     transition: 0.1s;
+}
+
+/* responsive */
+@media screen and (max-width: 768px){
+
+    body {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .container_header{
+        flex-direction: column;
+    }
+    .container_header h1{
+        font-size: 3em;
+        align-self: center;
+    }
+    .container_header img{
+        align-self: center;
+    }
+
+    .container_main{   
+       
+        grid-template-columns: auto;   
+    }
+    .datos_personales{
+        width: 70vw;     
+    }
+    .datos_personales td, th{
+        padding: 1;
+    }
+    .datos_personales table tr td span{
+        margin-left: auto;
+    }
+
+    .introduccion{
+        width: 75vw;
+        justify-self: center;
+        
+    }
+    
 }
