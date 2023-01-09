@@ -11,10 +11,18 @@ function backgroundImage(){
     }    
 }
 
+// hora/
+function myTime() {
+    document.getElementById('showTime').innerHTML = Date();
+  }
+
+// alerta /
+function alertButton() {
+    alert("Hola, gracias por ineresarte en mi CV!");
+}
+
 // funcion ir al inicio/
-let mybutton = document.getElementById("button_top");
+let myButton = document.getElementById("button_top");
 function goTopFunction() {
     document.documentElement.scrollTo({top: 0});
 }
-
-
