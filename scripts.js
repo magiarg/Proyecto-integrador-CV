@@ -18,7 +18,7 @@ function myTime() {
 
 // alerta /
 function alertButton() {
-    alert("Hola, gracias por ineresarte en mi CV!");
+    alert("Hola, gracias por interesarte en mi CV!");
 }
 
 // funcion ir al inicio/
